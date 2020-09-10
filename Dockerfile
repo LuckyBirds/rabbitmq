@@ -1,4 +1,4 @@
-FROM rabbitmq:3.8.1
+FROM rabbitmq:3.8-alpine
 
 RUN rabbitmq-plugins enable --offline rabbitmq_management
 RUN rabbitmq-plugins enable --offline rabbitmq_tracing
